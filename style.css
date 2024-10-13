@@ -50,7 +50,7 @@ body {
     /* 撐開內邊距 */
     padding: 3%;
     /* 陰影 */
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px 1px rgba(15, 202, 40, 0.2);
     /* 外框 */
     border: 1px solid #51515130;
     /* 變形, 幅度為 .3rem (圓角矩形) */
@@ -67,4 +67,25 @@ body {
     border: 1px solid #51515150;
     /* 陰影 */
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* 使用不同的顏色為每個按鈕設置 */
+.btn-red {
+    background-color: red;
+    color: white;
+}
+
+.btn-green {
+    background-color: green;
+    color: white;
+}
+
+.btn-blue {
+    background-color: rgb(182, 58, 171);
+    color: white;
+}
+
+.btn-yellow {
+    background-color: yellow;
+    color: black;
 }
